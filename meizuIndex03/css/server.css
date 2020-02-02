@@ -1,0 +1,431 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.head {
+    width: 100%;
+    height: 82px;
+    /* background: pink; */
+}
+
+.nav {
+    width: 1240px;
+    height: 82px;
+    /* background: yellow; */
+    margin: 0 auto;
+}
+
+.logo {
+    width: 126px;
+    height: 82px;
+    /* background: red; */
+    float: left;
+}
+
+.logo img {
+    padding: 28px 0px;
+}
+
+.nav_list {
+    width: 921px;
+    height: 82px;
+    float: right;
+    /* background: green; */
+}
+
+.nav_list a {
+    height: 82px;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #515151;
+    display: inline-block;
+    margin-left: 20px;
+    line-height: 82px;
+}
+
+.iput {
+    width: 170px;
+    height: 30px;
+    display: inline-block;
+    /* background: blueviolet; */
+    border: 1px solid #999;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+.iput input {
+    outline: none;
+    border: none;
+    padding: 9px 0 8px 15px;
+}
+
+.nav_list a:last-of-type {
+    position: relative;
+}
+
+.nav_list a:last-of-type span {
+    width: 15px;
+    height: 15px;
+    background: red;
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    left: 15px;
+    top: 22px;
+    text-align: center;
+    line-height: 15px;
+    border-radius: 50%;
+}
+
+.banner {
+    width: 100%;
+    height: 580px;
+}
+
+.swiper-slide a img {
+    width: 100%;
+    height: 580px;
+}
+.swiper-container{
+    width: 100%;
+    height: 580px;
+}
+
+.section {
+    width: 100%;
+    height: 453px;
+    /* background: pink; */
+}
+
+.choose {
+    width: 1240px;
+    height: 209px;
+    /* background: yellow; */
+    margin: 0 auto;
+}
+
+.zccp {
+    width: 177px;
+    height: 211px;
+    float: left;
+    text-align: center;
+}
+
+.zccp a img {
+    display: inline-block;
+    text-align: center;
+    margin-top: 76px;
+}
+
+.zccp p {
+    margin-top: 16px;
+}
+
+.service {
+    width: 1240px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.xcc {
+    width: 302px;
+    height: 174px;
+    /* background: blue; */
+    float: left;
+    margin-left: 10px;
+}
+
+.xcc p:nth-child(2) {
+    font-size: 16px;
+}
+
+.xcc p:nth-child(3) {
+    font-size: 12px;
+}
+
+.xcc a img {
+    display: inline-block;
+    text-align: center;
+    margin-top: 32px;
+    margin-left: 117px;
+}
+
+.xcc p {
+    text-align: center;
+    margin-top: 12px;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: 702px;
+    background: #f4f4f4;
+}
+
+.main p,
+.shop p,
+.question p,
+.zhouyi p {
+    text-align: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.hot {
+    width: 1240px;
+    height: 300px;
+    /* background: pink;s */
+    margin: 0 auto;
+}
+
+.phone {
+    width: 406px;
+    height: 300px;
+    background: #fff;
+    float: left;
+    margin-left: 10px;
+}
+
+.phone a img {
+    display: inline-block;
+    width: 142px;
+    height: 165px;
+    text-align: center;
+    /* margin: 0 auto; */
+    margin-left: 135px;
+    margin-top: 50px;
+}
+
+.main .hot .phone p {
+    text-align: center;
+    margin-top: 36px;
+    padding-top: 0;
+}
+
+.column {
+    width: 1240px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.ic {
+    width: 616px;
+    height: 158px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+
+.shop {
+    width: 100%;
+    height: 696px;
+}
+
+.news {
+    width: 1240px;
+    height: 532px;
+    /* background: yellow; */
+    margin: 0 auto;
+}
+
+.tab {
+    width: 615px;
+    height: 246px;
+    float: left;
+    /* background: red; */
+}
+
+.ccon {
+    width: 85px;
+    height: 246px;
+    /* background: green; */
+    float: left;
+}
+
+.ccon img {
+    margin-top: 48px;
+}
+
+.shop .tab p {
+    width: 383px;
+    padding: 0;
+    float: left;
+    margin-left: 48px;
+}
+
+.tab p:nth-child(2) {
+    margin-top: 45px;
+    text-align: left;
+    font-size: 16px;
+}
+
+.tab p:nth-child(3) {
+    margin-top: 28px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.tab p:nth-child(4) {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 12px;
+}
+
+.tab p:nth-child(4) a {
+    color: #00bbf2;
+}
+
+.question {
+    width: 100%;
+    height: 397px;
+    background: #f4f4f4;
+}
+
+.list {
+    width: 100%;
+    height: 238px;
+    background: #f4f4f4;
+}
+
+.ul-list {
+    width: 1240px;
+    height: 238px;
+    margin: 0 auto;
+    /* background: red; */
+}
+
+.li-list {
+    width: 248px;
+    height: 238px;
+    float: left;
+    text-align: center;
+    line-height: 24px;
+    /* background: yellow; */
+}
+
+.ul-list .li-list p {
+    width: 248px;
+    height: 34px;
+    line-height: 34px;
+    padding: 0;
+}
+
+.zhouyi {
+    width: 100%;
+    height: 332px;
+    /* background: red; */
+}
+
+.erji {
+    width: 310px;
+    height: 167px;
+    /* background: pink; */
+    float: left;
+}
+
+.lxfs .erji p {
+    padding: 0;
+    padding-top: 12px;
+    font-size: 12px;
+    color: #999;
+}
+
+.lxfs .erji img {
+    width: 34px;
+    height: 34px;
+    display: block;
+    margin: 0 auto;
+}
+
+.vote {
+    width: 100%;
+    height: 756px;
+    /* background: red; */
+}
+
+.msg {
+    width: 1240px;
+    height: 756px;
+    background: pink;
+    margin: 0 auto;
+}
+
+.guild {
+    width: 620px;
+    height: 378px;
+    background: #5a66aa;
+    float: left;
+}
+
+.guild p {
+    width: 300px;
+    margin-left: 60px;
+}
+
+.guild p a {
+    color: #fff
+}
+
+.guild p:nth-child(1) {
+    font-size: 16px;
+    margin-top: 80px;
+}
+
+.guild p:nth-child(2) {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.guild p:nth-child(3) {
+    font-size: 12px;
+    margin-top: 18px;
+}
+
+.guild ul {
+    width: 561px;
+    height: 53px;
+    /* background: red; */
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.guild ul li {
+    width: 48px;
+    font-size: 12px;
+    color: #fff;
+    float: left;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.guild ul li span {
+    display: block;
+    font-size: 20px;
+}
+
+.guild ul li a {
+    font-size: 10px;
+    color: #fff;
+    line-height: 14px;
+}
+
+.guild a img {
+    width: 100%;
+    height: 100%;
+}
+
+.guild:last-of-type {
+    background: #f4f4f4;
+}
+
+.guild:last-of-type p a {
+    color: #000;
+}
+
+.guild:last-of-type ul a,
+.guild:last-of-type ul span {
+    color: #000;
+}

@@ -1,0 +1,219 @@
+{
+  "id": "1435699",
+  "name": "魅族",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "424242",
+      "name": "手机贴膜",
+      "font_class": "shoujitiemo",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "573575",
+      "name": "暂停",
+      "font_class": "zanting",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "714718",
+      "name": "专家认证",
+      "font_class": "zhuanjiarenzheng",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "739045",
+      "name": "weibo",
+      "font_class": "weibo",
+      "unicode": "e62a",
+      "unicode_decimal": 58922
+    },
+    {
+      "icon_id": "807273",
+      "name": "静音",
+      "font_class": "jingyin",
+      "unicode": "e65e",
+      "unicode_decimal": 58974
+    },
+    {
+      "icon_id": "876782",
+      "name": "软件升级",
+      "font_class": "ruanjianshengji",
+      "unicode": "e66b",
+      "unicode_decimal": 58987
+    },
+    {
+      "icon_id": "1006016",
+      "name": "年",
+      "font_class": "nian",
+      "unicode": "e6ba",
+      "unicode_decimal": 59066
+    },
+    {
+      "icon_id": "1071035",
+      "name": "我的1",
+      "font_class": "wode1",
+      "unicode": "e662",
+      "unicode_decimal": 58978
+    },
+    {
+      "icon_id": "1190060",
+      "name": "购物车",
+      "font_class": "gouwuche1",
+      "unicode": "e6ef",
+      "unicode_decimal": 59119
+    },
+    {
+      "icon_id": "1591572",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e64b",
+      "unicode_decimal": 58955
+    },
+    {
+      "icon_id": "3763254",
+      "name": "搜索",
+      "font_class": "weibiaoti-",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "3865271",
+      "name": "手机",
+      "font_class": "shouji1",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    },
+    {
+      "icon_id": "4023672",
+      "name": "快修",
+      "font_class": "kuaixiu",
+      "unicode": "e625",
+      "unicode_decimal": 58917
+    },
+    {
+      "icon_id": "4447099",
+      "name": "手机",
+      "font_class": "shouji2",
+      "unicode": "e900",
+      "unicode_decimal": 59648
+    },
+    {
+      "icon_id": "5311246",
+      "name": "萌版航空航天-星星star",
+      "font_class": "mengbanhangkonghangtian-xingxingstar",
+      "unicode": "e6a6",
+      "unicode_decimal": 59046
+    },
+    {
+      "icon_id": "5327376",
+      "name": "播放",
+      "font_class": "bofang",
+      "unicode": "e6ce",
+      "unicode_decimal": 59086
+    },
+    {
+      "icon_id": "5439974",
+      "name": "我的",
+      "font_class": "wode",
+      "unicode": "e63a",
+      "unicode_decimal": 58938
+    },
+    {
+      "icon_id": "5521672",
+      "name": "VIP服务",
+      "font_class": "VIPfuwu",
+      "unicode": "ea0a",
+      "unicode_decimal": 59914
+    },
+    {
+      "icon_id": "6263343",
+      "name": "声音",
+      "font_class": "shengyin",
+      "unicode": "e66a",
+      "unicode_decimal": 58986
+    },
+    {
+      "icon_id": "6626212",
+      "name": "星5",
+      "font_class": "xing",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "6850759",
+      "name": "软件升级",
+      "font_class": "ruanjianshengji1",
+      "unicode": "e7ec",
+      "unicode_decimal": 59372
+    },
+    {
+      "icon_id": "7233488",
+      "name": "充电",
+      "font_class": "chongdian",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "7458042",
+      "name": "Wi-fi",
+      "font_class": "Wi-fi",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "8965476",
+      "name": "专家咨询",
+      "font_class": "zhuanjiazixunCopy",
+      "unicode": "e6b9",
+      "unicode_decimal": 59065
+    },
+    {
+      "icon_id": "9626870",
+      "name": "购物车",
+      "font_class": "gouwuche",
+      "unicode": "e86e",
+      "unicode_decimal": 59502
+    },
+    {
+      "icon_id": "10056794",
+      "name": "放大",
+      "font_class": "fangda",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "11070061",
+      "name": "购物车",
+      "font_class": "gouwuche-copy",
+      "unicode": "e86f",
+      "unicode_decimal": 59503
+    },
+    {
+      "icon_id": "11070062",
+      "name": "我的1",
+      "font_class": "wode1-copy",
+      "unicode": "e870",
+      "unicode_decimal": 59504
+    },
+    {
+      "icon_id": "11142642",
+      "name": "消息4",
+      "font_class": "xiaoxi-copy-copy-copy",
+      "unicode": "e876",
+      "unicode_decimal": 59510
+    },
+    {
+      "icon_id": "11142643",
+      "name": "浏览2",
+      "font_class": "liulan-copy-copy-copy-copy",
+      "unicode": "e877",
+      "unicode_decimal": 59511
+    }
+  ]
+}

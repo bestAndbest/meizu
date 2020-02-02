@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="shortcut icon" href="../img/micon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+		<link rel="stylesheet" type="text/css" href="../css/lore.css"/>
+		<script src="../js/jquery.js"></script>
+		
+	</head>
+	<body>
+		<div id="cover"></div>
+		<div class="lore_box">
+			<div class="header">
+				<a href="#" class="logo">
+				</a>
+			</div>
+			<div class="from_box">
+				<form action="###" name="frm" method="post">
+					<h2>登录</h2>
+					<input type="text" placeholder="请输入账号" name='username' />
+					<br/>
+					<input type="password" placeholder="请输入密码" name='password' />
+					<br />
+					<input type="submit" value="登录" class="sub"/>
+					<p><a href="regiter.html">注册</a></p><p class="p2"><a href="#">忘记密码?</a></p>
+					<div id='hint_box'>
+						<div class="hint">
+							<h3>登录失败</h3>
+							<p id='tishi'></p>
+						</div>
+						<h3 id="sure">确定</h3>
+					</div>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script src="../js/utils.js"></script>
+	<script src="../js/cookie.js"></script>
+	<script src="../js/login.js"></script>
+</html>

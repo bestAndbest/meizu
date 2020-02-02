@@ -1,0 +1,449 @@
+body {
+	background: #F6F8FB;
+	width: 100%;
+	height: 1400px;
+}
+
+.de_box {
+	padding: 20px;
+	width: 100%;
+	background: #fff;
+	height: 960px;
+	box-sizing: border-box;
+}
+
+.de_wrap {
+	width: 1240px;
+	margin: 10px 140px;
+}
+
+.de_head {
+	width: 100%;
+	height: 70px;
+	/*background: red;*/
+}
+
+.brand {
+	margin-top: 16px;
+	float: left;
+	font-size: 24px;
+}
+
+.infos {
+	float: right;
+}
+
+.infos li {
+	margin-top: 24px;
+	font-size: 14px;
+	height: 18px;
+	padding: 0 10px;
+	border-right: 1px solid #dedede;
+	float: left;
+}
+
+.imgs_box {
+	position: relative;
+	left: 0;
+	width: 50%;
+}
+
+.smaimg,
+.bigimg {
+	width: 500px;
+	height: 500px;
+	position: absolute;
+}
+
+.smaimg img {
+	width: 100%;
+	height: 100%;
+}
+
+.mark {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 250px;
+	height: 250px;
+	background: rgb(0, 0, 0, .5);
+	display: none;
+	cursor: move;
+}
+
+.bigimg {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	left: 620px;
+	overflow: hidden;
+	display: none;
+}
+
+.bigimg img {
+	position: absolute;
+	left: 0;
+	top: 0;
+	float: left;
+	width: 1000px;
+	height: 1000px;
+}
+
+.smallimgs img {
+	margin-left: 30px;
+	width: 80px;
+	height: 80px;
+}
+
+.phoneinfos_box {
+	padding-top: 20px;
+	position: absolute;
+	left: 820px;
+	width: 40%;
+}
+
+.phoneinfos_box h2 {
+	line-height: 50px;
+}
+
+.price_box {
+	margin-top: 20px;
+	background: #F4F6FA;
+	width: 100%;
+	padding: 10px;
+}
+
+.price {
+	font-size: 28px;
+	color: #e02b41;
+}
+
+.price span {
+	font-size: 36px;
+}
+
+.youhui,
+.huangou {
+	font-size: 14px;
+}
+
+.youhui span,
+.huangou span {
+	display: inline-block;
+	/*width: 72px;
+	height: 21px;*/
+	/*padding: 5px;*/
+	text-align: center;
+	line-height: 21px;
+	color: #e02b41;
+	background: #F2EAEF;
+	border-radius: 2px;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.youhui i {
+	color: #e02b41;
+}
+
+.youhui a,
+.huangou a {
+	color: #27b3ff;
+	margin-left: 10px;
+}
+
+.payurl {
+	width: 100%;
+	padding-bottom: 20px;
+	border-bottom: 1px dashed #dedede;
+}
+
+.pay {
+	margin-top: 20px;
+	width: 100%;
+	height: 30px;
+}
+
+.payurl span,
+.payurl p {
+	font-size: 12px;
+	color: #8c8c8c;
+}
+
+.pay span {
+	margin-right: 20px;
+}
+
+.pay span,
+.pay img,
+.url span {
+	float: left;
+}
+
+.payurl img {
+	width: 15px;
+}
+
+.payurl p span {
+	color: #27b3ff;
+}
+
+.payurl p span img {
+	width: 14px;
+	margin-left: 8px;
+}
+
+
+/*手机信息*/
+
+.phoneinfo_box {
+	width: 100%;
+}
+
+.property {
+	margin-top: 20px;
+	width: 100%;
+}
+
+.property dl {
+	width: 100%;
+}
+
+.property dt {
+	float: left;
+	width: 10%;
+	font-size: 12px;
+	line-height: 46px;
+	color: #8c8c8c;
+}
+
+.property dl dd {
+	float: left;
+	width: 90%;
+}
+
+.property dl a {
+	position: relative;
+	float: left;
+	width: 160px;
+	margin: 0 10px 10px 0;
+	background-color: #fff;
+	line-height: 40px;
+	border: 1px solid #BFBFBF;
+	border-radius: 2px;
+	color: #595959;
+	text-align: center;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.property dl .blacka {
+	border: 1px solid #000;
+}
+
+.property dl a img {
+	position: relative;
+	top: 9px;
+	left: -4px;
+	width: 28px;
+	height: 28px;
+}
+.num dd {
+	
+	margin-top: 20px;
+}
+
+.num button {
+	float: left;
+	width: 32px;
+	height: 40px;
+	border: 1px solid #e7e7e7;
+	background: #f7f7f7;
+}
+
+.num input {
+	float: left;
+	width: 62px;
+	height: 38px;
+	text-align: center;
+	background: #f7f7f7;
+	border: 0;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+.buttons{
+	clear: both;
+	position: relative;
+}
+.buttons .buy {
+	float: left;
+	margin-right: 30px;
+	margin-top: 30px;
+	width: 210px;
+	height: 56px;
+	border-radius: 3px;
+	border: 0;
+	border: 1px solid #27b3ff;
+	background: #fff;
+	color: #27b3ff;
+}
+
+#nowbuy {
+	color: #fff;
+	background-color: #27b3ff;
+}
+
+.url {
+	position: absolute;
+}
+
+.url #alladdr {
+	position: absolute;
+	left: 6px;
+	top: 26px;
+	z-index: 1000;
+	padding: 10px 0px;
+	width: 498px;
+	border: 1px solid #dedede;
+	display: none;
+	height: auto;
+	font-size: 12px;
+	background: #fff;
+}
+
+
+/*地址*/
+
+#chufa {
+	display: block;
+	width: 498px;
+	height: 28px;
+}
+
+#sel {
+	width: 100%;
+	height: 28px;
+	border-bottom: 1px solid #000;
+}
+
+#alladdr p span {
+	position: relative;
+	z-index: 22;
+	background: #fff;
+	color: #000;
+	padding: 4px 10px;
+	float: left;
+	margin-left: 5px;
+	height: 20px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+	border: 1px solid #ddd;
+	border-bottom: 0;
+	cursor: pointer;
+}
+
+#content {
+	width: 100%;
+	margin-top: 36px;
+}
+
+#content li {
+	padding: 10px;
+	height: 26px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+.on {
+	color: skyblue!important;
+	border-color: #000!important;
+}
+
+.del {
+	position: absolute;
+	right: -6px;
+	top: -6px;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	border-radius: 50%;
+	background: #ccc;
+	color: #fff;
+	cursor: pointer;
+}
+
+#chufa em {
+	font-size: 14px;
+	margin: 5px;
+}
+
+.detail {
+	width: 1240px;
+	margin: 0px auto;
+}
+
+.detail img {
+	width: 100%;
+	display: block;
+}
+
+.detail p {
+	font-size: 24px;
+	padding-top: 45px;
+	padding-bottom: 20px;
+}
+
+#count span {
+	position: relative;
+	top: 6px;
+	font-size: 12px;
+	color: #E81010;
+	left: 8px;
+	display: none;
+}
+#tell{
+	text-align: center;
+	display: none;
+	position: absolute;
+	left:-40px;
+	top:-100px;
+	width:260px;
+	height: 40px;
+	padding: 30px 0;
+	background: #fff;
+	border-radius: 3px;
+	border: 1px solid rgba(0, 0, 0, 0.5);
+	box-shadow: rgba(0, 0, 0, 0.2) 2px 2px 0px 0px;
+}
+
+#tell div span{
+	font-size: 14px;
+	color: #000;
+	position: relative;
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	text-align: center;
+	line-height: 16px;
+	border: 1px solid #000;
+	border-radius: 50%;
+	margin-right: 6px;
+}
+#tell p{
+	width: 100%;
+	line-height: 40px;
+	text-align: center;
+	font-size: 12px;
+}
+#tell em{
+	position: absolute;
+	right: 0px;
+	top:0;
+	width: 20px;
+	height: 20px;
+	background: #fff;
+	font-size: 20px;
+	cursor: pointer;
+}

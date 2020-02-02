@@ -1,0 +1,107 @@
+body{
+    width: 100%;
+    height: 100%;
+    background:url('../img/320621.jpg') 100% 100%;
+}
+.video{
+    width: 1202px;
+    height: 676px;
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 999;
+    margin: auto;
+}
+#video1,#video1 source{
+    width: 1202px;
+    height: 627px;
+    object-fit: cover;
+}
+.controls{
+    width: 1202px;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    background: #515a61;
+}
+.pressinfo{
+    width: 1202px;
+    height: 12px;
+    cursor: pointer;
+    background: url('https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=3725063143,3089760052&fm=26&gp=0.jpg');
+    position: absolute;
+    top: 0;
+}
+.currentinfo{
+    height: 12px;
+    background: #aba9f8;
+}
+.tools{
+    width: 1202px;
+    height: 15px;
+    position: absolute;
+    top: 20px;
+}
+.play{
+    width: 11px;
+    height: 15px;
+    float: left;
+    margin-left: 25px;
+    text-align: center;
+    line-height: 15px;
+}
+.listen{
+    width: 120px;
+    height: 15px;
+    float: left;
+    margin-left:39px;
+    line-height: 15px;
+}
+.play i,.listen i,.big i{
+    font-size: 14px;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+}
+
+.listen span{
+    display: inline-block;
+    width:100px;
+    height:14px;
+    float: left;
+    margin-top:0.5px;
+    margin-left: 5px;
+    border-radius:5px;
+    cursor: pointer;
+}
+.listen span .vol_box{
+    width: 100%;
+    height:10px;
+    border-radius:5px;
+    cursor: pointer;
+    margin-top: 2px;
+    background: #fff;
+}
+
+.time{
+    width:200px;
+    height: 15px;
+    float: left;
+    margin-left: 50px;
+    text-align: center;
+    line-height: 15px;
+}
+.time span{
+    color: #fff;
+    font-size: 14px;
+}
+.big{
+    width:17px;
+    height: 15px;
+    float: right;
+    line-height: 15px;
+    margin-right:14px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="shortcut icon" href="../img/micon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="../css/main.css" />
+		<link rel="stylesheet" type="text/css" href="../css/regiter.css" />
+		<link rel="stylesheet" type="text/css" href="../css/lore.css" />
+	</head>
+
+	<body>
+		<div class="lore_box">
+			<div class="header">
+				<a href="#" class="logo">
+				</a>
+			</div>
+			<div class="from_box">
+				<form action="login.html" name="frm" onsubmit='return checkAll()'>
+					<a href="#">注册Flyme账号</a>
+					<div><i>账号：</i><input type="text" placeholder="请输入账号" onblur="checkUser(this)" name='username' />
+						<span>*&nbsp;账号中不能有数字，长度为4到16位</span></div><br/>
+
+					<div><i>密码：</i><input type="password" placeholder="请输入密码" onblur="checkPass(this)" name='psd1' />
+						<span>*&nbsp;密码由数字字母下划线组成，长度6-16</span></div><br />
+
+					<div><i>确认密码：</i><input type="password" placeholder="确认密码" onblur="checkPass2(this)" name='psd2' />
+						<span>*</span></div><br />
+
+					<div><i>邮箱：</i><input type="email" placeholder="请输入邮箱" onblur="checkEma(this)" name='email' />
+						<span>*</span></div><br />
+
+					<div><i>手机号码：</i><input type="text" placeholder="请输入手机号" onblur="checkPhone(this)" name='phone' />
+						<span>*</span></div><br />
+
+					<input type="submit" value="注册" id="sub" />
+					<p><a href="#">登录</a></p>
+				</form>
+			</div>
+		</div>
+	</body>
+	<script src="../js/utils.js"></script>
+	<script src="../js/cookie.js"></script>
+	<script src="../js/regiter.js"></script>
+</html>

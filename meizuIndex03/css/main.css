@@ -1,0 +1,27 @@
+html,body,header,p,img,h1,h2,h3,h4,h5,h6,table,td,th,tr,form,span,i,em,b,strong,ul,li,a,input,fieldset,legend,ol,dl,dt,dd,select,textarea{
+	padding:0;
+	margin: 0;
+}
+ul li,ol li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: #333;
+}
+img{
+	border: 0;
+}
+.clearfix:after{
+	content: ""; display: block;clear: both; overflow: hidden;height: 0;font-size: 0;visibility: hidden;
+}
+input{
+	outline: none;
+}
+i,em{
+	font-style: normal;
+}
+button{
+	outline: none;
+	cursor: pointer;
+}

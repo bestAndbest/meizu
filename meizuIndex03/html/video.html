@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>视频播放</title>
+    <link rel="shortcut icon" href="../img/micon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../font/iconfont.css">
+    <link rel="stylesheet" href="../css/video.css">
+    <script src="../js/jquery-3.3.1.min.js"></script>
+</head>
+<body>
+    <div class="video">
+        <video id="video1" poster="">
+            <!-- <source src="https://www3.res.meizu.com/video/天空之城_2.mp4" type="video/mp4"> -->
+        </video>
+
+        <div class="controls">
+            <div class="pressinfo">
+                <div class="currentinfo">
+
+                </div>
+            </div>
+
+            <div class="tools">
+                <div class="play">
+                    <i class="iconfont play_btn">&#xe6ce;</i>
+                    <i class="iconfont pause_btn" style="display: none;">&#xe638;</i>
+                </div>
+
+                <div class="listen">
+                    <i class="iconfont vol">&#xe66a;</i>
+                    <i class="iconfont novol" style="display: none;">&#xe65e;</i>
+                    <span class="vol_bar">
+                        <div class="vol_box"></div>
+                    </span>
+                </div>
+                
+                <div class="time">
+                    <span class="tt"></span>
+                </div>
+
+                <div class="big">
+                    <i class="iconfont fangbig">&#xe60d;</i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/video.js"></script>
+</body>
+<script>
+let videourl=window.location;
+let sear=videourl.search
+let videoid=sear.substring(sear.indexOf('=')+1);
+bafang(videoid)
+
+function bafang(videoid){
+    $.ajax({
+        url:"../server/videoid.php",
+        type:"GET",
+        data:{
+            "id":videoid
+        },
+        success(res){
+            var jsonp = JSON.parse(res);
+            console.log(jsonp)
+            video2(jsonp);
+        }
+    })
+}
+
+function video2(video){
+    var posterurl = video[0].posterurl;
+    $("#video").attr("poster",posterurl);
+    var str = ''
+    video.forEach(item => {
+        str+=`
+        <source src="${item.videourl}" type="video/mp4">
+        `
+    });
+    $("video").html(str)
+}
+</script>
+</html>

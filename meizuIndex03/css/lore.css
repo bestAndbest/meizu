@@ -1,0 +1,46 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+.lore_box {
+	width: 100%;
+	height: 100%;
+}
+
+.lore_box .header {
+	width: 100%;
+	height: 68px;
+	background: #fff;
+}
+
+.logo {
+	display: inline-block;
+	margin: 28px 140px;
+	width: 110px;
+	height: 20px;
+	background: url(https://uc-res.mzres.com/resources/uc/wlogin/base/images/base.png)-2px -4px no-repeat;
+}
+
+.lore_box .from_box {
+	width: 100%;
+	height: 90%;
+	background: url(https://uc-res.mzres.com/resources/uc/wlogin/member/images/banner.png)no-repeat;
+	background-size: cover;
+}
+
+.lore_box p a{
+	float: left;
+	margin: 20px 0;
+	margin-left: 8px;
+	font-size: 14px;
+	color: #387aff;
+}
+input{
+	padding-left: 10px;
+	border:0;
+	border: 1px solid silver;
+	border-radius: 2px;
+}
+input:focus{
+	border-color: blue;
+}
